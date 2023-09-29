@@ -9,7 +9,7 @@ class SplashController extends GetxController {
   void onReady() {
     super.onReady();
     // if (getStorge.read("id") != null) {
-    //   Future.delayed(const Duration(milliseconds: 9000), () {
+    //   Future.delayed(const Duration(milliseconds: 1000), () {
     //     Get.offAllNamed(Routes.HOME);
     //   });
     // }
@@ -17,7 +17,7 @@ class SplashController extends GetxController {
     //   Get.offAllNamed(Routes.LOGIN);
     // }
 
-    Future.delayed(const Duration(milliseconds: 9000), () {
+    Future.delayed(const Duration(milliseconds: 1000), () {
       Get.offAllNamed(Routes.LOGIN);
     });
   }
