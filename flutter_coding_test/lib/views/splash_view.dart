@@ -30,7 +30,7 @@ class SplashView extends GetView<SplashController> {
                   boxShadow: const [
                     BoxShadow(
                       color: Colors.orange,
-                      blurRadius: 4,
+                      blurRadius: 2,
                       spreadRadius: 2,
                     ),
                   ],
